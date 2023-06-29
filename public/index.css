@@ -10,7 +10,8 @@
 }
 body{
     /* background-color: rgb(253, 237, 239); */
-    background-image: url("./bear.jpg");
+    background-image: url("https://secondmorning.co.kr/file_data/secondmorning/2021/06/25/b0c8e775f0f1f01f55a01fc0a315305c.jpg");
+    background-size: cover;
 }
 #root{
     text-align: center;

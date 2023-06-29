@@ -3,8 +3,6 @@ import { useSelector,useDispatch } from "react-redux";
 import styled from "styled-components";
 import { tile } from "../redux/action"
 import { Button } from "../styled/ProjectStyle"
-// import { BottomBox,ThumbnailImg } from "./styled/TileStyle";
-import image from '../assets/bear.jpg'
 
 const ThumbnailComponent = (props) => {
     const {tileState} = props;

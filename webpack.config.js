@@ -1,4 +1,3 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const config = {
     "mode": "development", // production과의 차이 : 번들링의 차이, production은 번들링이 오래걸림
@@ -27,11 +26,6 @@ const config = {
             },
         ]
     },
-    "plugins":[
-        new HtmlWebpackPlugin({
-            "template": './public/index.html'
-        })
-    ],
     "devServer":{
         "static":{
             "directory":__dirname + "/public"
